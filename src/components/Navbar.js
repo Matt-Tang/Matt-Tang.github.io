@@ -70,7 +70,7 @@ function NavBar() {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
-                  href="https://drive.google.com/file/d/1mtekMOEjIkXIYFph3qnjOqoZXIgfO7JY/view"
+                  href="https://drive.google.com/file/d/1YGiUzLPn-W4WmZWsyt1H6r7FvcVWnUKP/view?usp=sharing"
                   target="_blank"
                   >
                     <i className="fas fa-file-alt"></i> Resume
