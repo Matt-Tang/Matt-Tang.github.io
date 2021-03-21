@@ -16,15 +16,16 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 className="heading">
+              {/* <h1 className="heading">
                 Hi There! <span className="wave">👋🏻</span>
-              </h1>
+              </h1> */}
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> MATTHEW TANG</strong>
+                <strong className="main-name"> MATTHEW TANG </strong> <span className="wave">👋🏻</span>
                 <br></br>
                 <h2>Computer Engineering <span class="school-name">@UWaterloo</span></h2>
+                <h3>ECE Academic Class Rep</h3>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -35,6 +36,16 @@ function Home() {
                 <h3>Mentor <a href="http://www.techplusuw.org/" target="_blank">@Tech+UW</a> and <a href="https://ecesociety.uwaterloo.ca/" target="_blank">@ECESociety</a></h3>
                 <br></br>
                 <ul className="home-about-social-links">
+                  <li className="social-icons">
+                    <a
+                      href="mailto:ml3tang@uwaterloo.ca"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon-colour  home-social-icons"
+                    >
+                      <i className="fa fa-envelope"></i>
+                    </a>
+                  </li>
                   <li className="social-icons">
                     <a
                       href="https://github.com/Matt-Tang"
