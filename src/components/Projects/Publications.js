@@ -27,7 +27,7 @@ function Publications() {
               isBlog={false}
               title="Software Requirements"
               // description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="/publications/SRS.pdf"
+              link="https://matt-tang.github.io/publications/SRS.pdf"
             />
           </Col>
 
@@ -38,7 +38,7 @@ function Publications() {
               title="COVID-19"
               // description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
               // Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="/publications/covid19.pdf"
+              link="https://matt-tang.github.io/publications/covid19.pdf"
             />
           </Col>
 
