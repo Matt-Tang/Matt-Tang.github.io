@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
 import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 import "../../style.css";
@@ -15,7 +14,7 @@ import blog6 from "../../Assets/Projects/blog_6_cropped.png";
 import blog7 from "../../Assets/Projects/blog_7_cropped.png";
 import blog8 from "../../Assets/Projects/blog_8_cropped.png";
 
-function Projects() {
+function Blogs() {
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -155,4 +154,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Blogs;

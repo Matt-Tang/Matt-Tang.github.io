@@ -4,7 +4,8 @@ import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
-import Projects from "./components/Projects/Projects";
+import Blogs from "./components/Projects/Blogs";
+import Publications from "./components/Projects/Publications";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/Resume";
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
@@ -27,8 +28,8 @@ function App() {
         <Switch>
           {/* <Redirect exact from="/" to="/portfolio" /> */}
           <Route path="/" exact component={Home} />
-          <Route path="/project" component={Projects} />
-          {/* <Route path="/about" component={About} /> */}
+          <Route path="/blogs" component={Blogs} />
+          <Route path="/publications" component={Publications} />
           {/* <Route path="/resume" component={Resume} /> */}
         </Switch>
         {/* <Footer /> */}

@@ -50,22 +50,22 @@ function NavBar() {
                 <i className="fas fa-home"></i> Home
               </Nav.Link>
             </Nav.Item>
-            {/* <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
-                <i className="far fa-user"></i> About
-              </Nav.Link>
-            </Nav.Item> */}
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
+                to="/blogs"
                 onClick={() => updateExpanded(false)}
               >
                 <i className="fas fa-pen-fancy"></i> Blogs
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/publications"
+                onClick={() => updateExpanded(false)}
+              >
+                <i className="fa fa-graduation-cap"></i> Publications
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
