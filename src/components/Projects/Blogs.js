@@ -80,7 +80,7 @@ function Blogs() {
           </Col>
         </Row> */}
         <h1 className="project-heading">
-          My Recent <strong className="purple">Blog </strong> Posts
+          My Recent <strong className="purple">Blog Posts</strong> 
         </h1>
         <p style={{ color: "white" }}>Do give a read to some of my blogs</p>
         <Row style={{ justifyContent: "center" }}>

@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import covid19 from "../../Assets/Projects/covid19.png";
 import noverty from "../../Assets/Projects/noverty.png";
+import newyork from "../../Assets/Projects/newyork.png";
 
 
 function Publications() {
@@ -18,7 +19,7 @@ function Publications() {
           My Recent <strong className="purple">Publications </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've published recently
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -42,15 +43,15 @@ function Publications() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={blog1}
+              imgPath={newyork}
               isBlog={false}
-              title="Suicide Ideation Prediction"
-              description="Using 'Natural Launguage Processing' for detection of posts in social media platform to identity if a person is affected by any mental illness and thus helping in sucide prevention."
-              link="https://gist.github.com/soumyajit4419/ef44d41fdc510637c7f6730d1bbce2ed"
+              title="Tappan Zee Bridge"
+              // description="Using 'Natural Launguage Processing' for detection of posts in social media platform to identity if a person is affected by any mental illness and thus helping in sucide prevention."
+              link="https://matt-tang.github.io/publications/New-York-Tappan-Zee-Bridge.pdf"
             />
-          </Col> */}
+          </Col>
         </Row>
       </Container>
     </Container>
