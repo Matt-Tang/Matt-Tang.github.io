@@ -10,16 +10,16 @@ import noverty from "../../Assets/Projects/noverty.png";
 import newyork from "../../Assets/Projects/newyork.png";
 
 
-function Publications() {
+function Archive() {
   return (
     <Container fluid className="project-section">
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Publications </strong>
+          My Recent <strong className="purple">Documents </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've published recently
+          Here are a few projects I've finished recently
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -28,7 +28,7 @@ function Publications() {
               isBlog={false}
               title="Software Requirements"
               // description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://matt-tang.github.io/publications/SRS.pdf"
+              link="https://matt-tang.github.io/archive/SRS.pdf"
             />
           </Col>
 
@@ -39,7 +39,7 @@ function Publications() {
               title="COVID-19"
               // description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
               // Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://matt-tang.github.io/publications/covid19.pdf"
+              link="https://matt-tang.github.io/archive/covid19.pdf"
             />
           </Col>
 
@@ -49,7 +49,7 @@ function Publications() {
               isBlog={false}
               title="Tappan Zee Bridge"
               // description="Using 'Natural Launguage Processing' for detection of posts in social media platform to identity if a person is affected by any mental illness and thus helping in sucide prevention."
-              link="https://matt-tang.github.io/publications/New-York-Tappan-Zee-Bridge.pdf"
+              link="https://matt-tang.github.io/archive/New-York-Tappan-Zee-Bridge.pdf"
             />
           </Col>
         </Row>
@@ -58,4 +58,4 @@ function Publications() {
   );
 }
 
-export default Publications;
+export default Archive;

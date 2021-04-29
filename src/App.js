@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Blogs from "./components/Projects/Blogs";
-import Publications from "./components/Projects/Publications";
+import Archive from "./components/Projects/Archive";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/Resume";
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
@@ -29,7 +29,7 @@ function App() {
           {/* <Redirect exact from="/" to="/portfolio" /> */}
           <Route path="/" exact component={Home} />
           <Route path="/blogs" component={Blogs} />
-          <Route path="/publications" component={Publications} />
+          <Route path="/archive" component={Archive} />
           {/* <Route path="/resume" component={Resume} /> */}
         </Switch>
         {/* <Footer /> */}

@@ -62,20 +62,20 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/publications"
+                to="/archive"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="fa fa-graduation-cap"></i> Publications
+                <i className="fa fa-graduation-cap"></i> Archive
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                   href="https://drive.google.com/file/d/1YGiUzLPn-W4WmZWsyt1H6r7FvcVWnUKP/view?usp=sharing"
                   target="_blank"
                   >
                     <i className="fas fa-file-alt"></i> Resume
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item className="fork-btn">
               <Button
