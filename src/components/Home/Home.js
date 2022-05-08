@@ -30,6 +30,7 @@ function Home() {
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 {/* <Type /> */}
+                <h3>I'm a <a href="https://www.youtube.com/channel/UC6TgSJusmxna6L3-uqvCG-A" target="_blank">vlogger!</a></h3>
                 <h3>I'm a <a href="https://devpost.com/software/flow-ai" target="_blank">Hack the North Winner!</a></h3>
                 <h3>I'm a <a href="https://medium.com/matthew-tang" target="_blank">Lifestyle and Motivational Blogger!</a></h3>
                 <h3>I'm a <a href="http://matthew-tang-ece-course-critique.s3-website.us-east-2.amazonaws.com/" target="_blank">Course Critiquer @UWaterloo</a></h3>
@@ -84,6 +85,17 @@ function Home() {
                       className="icon-colour home-social-icons"
                     >
                       <i className="fab fa-medium-m"></i>
+                    </a>
+                  </li>
+
+                  <li className="social-icons">
+                    <a
+                      href="https://www.youtube.com/channel/UC6TgSJusmxna6L3-uqvCG-A"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon-colour home-social-icons"
+                    >
+                      <i className="fab fa-youtube"></i>
                     </a>
                   </li>
                 </ul>
