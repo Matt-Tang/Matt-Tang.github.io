@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.9cb109ae.chunk.css",
-    "main.js": "/static/js/main.05332b60.chunk.js",
-    "main.js.map": "/static/js/main.05332b60.chunk.js.map",
+    "main.js": "/static/js/main.6d298bf4.chunk.js",
+    "main.js.map": "/static/js/main.6d298bf4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.15abdb73.js",
     "runtime-main.js.map": "/static/js/runtime-main.15abdb73.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
@@ -26,6 +26,7 @@
     "static/media/blog_7_cropped.1e1182eb.png": "/static/media/blog_7_cropped.1e1182eb.png",
     "static/media/blog_8_cropped.819d562e.png": "/static/media/blog_8_cropped.819d562e.png",
     "static/media/covid19.04602b97.png": "/static/media/covid19.04602b97.png",
+    "static/media/dress-me.2861d6b4.png": "/static/media/dress-me.2861d6b4.png",
     "static/media/m_logo.31792292.png": "/static/media/m_logo.31792292.png",
     "static/media/newyork.69648896.png": "/static/media/newyork.69648896.png",
     "static/media/noverty.15396c68.png": "/static/media/noverty.15396c68.png",
@@ -37,6 +38,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.826c804c.chunk.js",
     "static/css/main.9cb109ae.chunk.css",
-    "static/js/main.05332b60.chunk.js"
+    "static/js/main.6d298bf4.chunk.js"
   ]
 }
